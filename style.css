@@ -1,0 +1,107 @@
+.bgImage{
+    height: 100vh;
+    background: url("bg3.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.bgText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+   
+}
+.bgTittle:hover{
+    background-color: brown;
+    cursor: pointer;
+    display: inline;
+    
+}
+.bgDec:hover{
+    background-color: brown;
+    cursor: pointer;
+    display: inline;
+    
+}
+.bgTittle{
+    font-size: 4rem;
+}
+.bgDec{
+    font-size: 2rem;
+}
+.container{
+    height:100vh;
+   
+    background-size: cover;
+   width: auto; 
+   
+    position: relative;
+}
+.bgTittle{
+    font-size: 4rem;
+}
+.bgDec{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: aqua;
+    border: 5px solid green;
+}
+.para:hover{
+    color: rgb(255, 145, 0);
+}
+.col-md-6 ul li p:hover{
+    font-size: larger;
+        color: rgb(37, 10, 192);
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 5px solid rgb(49, 10, 148); 
+}
+.card-img-top{
+    height: 50vh;
+
+}
+.puc{
+    text-align: center;
+}
+#about{
+    margin:20px ;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+#skills{
+    padding-top: 50px;
+}
+#project{
+    padding-top: 40px;
+}
+.text-center{
+    padding-top: 50px;
+}
+.card-body{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width:auto;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+}
+.card-text{
+    text-align: center;
+    font-size: larger;
+}
